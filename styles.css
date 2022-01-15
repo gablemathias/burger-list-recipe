@@ -1,0 +1,16 @@
+:root{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    line-height: 30px;
+}
+
+#checklist{ 
+    list-style: none;
+}
+
+img{ 
+    width: 400px;
+    max-width: 50%;
+}

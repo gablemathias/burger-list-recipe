@@ -1,16 +1,49 @@
+/* Global */
 :root{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
-li{
+ol{
     line-height: 30px;
 }
+
+/* Recipes adjustments */
 
 #checklist{ 
     list-style: none;
 }
 
-img{ 
+#recipe-container{
+    text-align: justify;
+}
+
+/* Index */
+
+#recipe-list-container{
+    padding: 0;
+    list-style-type: none;
+}
+
+#recipe-list a{
+    text-decoration: none;
+}
+
+/* Images formatting */
+
+#odin{
+    width: 250px;
+}
+
+#burger{ 
     width: 400px;
     max-width: 50%;
+}
+
+#pancakes{
+    width: 250px;
+}
+
+#chips{
+    width: 400px;
 }
